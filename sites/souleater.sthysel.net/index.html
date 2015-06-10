@@ -1,9 +1,19 @@
 <html>
 <head>
     <title>souleater.sthysel.net</title>
+    <link href='./css/styles.css' rel='stylesheet'>
+    <script src="./js/intense.js"></script>
 </head>
 
+
 <body>
-    <img src="http://cdn.newsapi.com.au/image/v1/3b38cf0517f9356f06fa565d728ca95a">
+    <img class="demo-image" src="http://cdn.newsapi.com.au/image/v1/3b38cf0517f9356f06fa565d728ca95a" data-title="Intense Stare" data-caption="Drains the spirit from the Soul"></img>
 </body>
+
+<script>
+    window.onload = function() {
+    var elements = document.querySelectorAll('.demo-image');
+    Intense(elements);
+}
+</script>
 </html>
